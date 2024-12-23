@@ -1,0 +1,108 @@
+/* Body and container styles */
+.app-container {
+  text-align: center;
+  background-color: #f1f8ff;
+  padding: 50px;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+/* Main greeting styles */
+.greeting {
+  color: #4CAF50;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.intro {
+  color: #555;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Button styles */
+.btn {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #e64a19;
+}
+
+/* Content and list styles */
+.content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2196F3;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #9c27b0;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Ordered and unordered list styling */
+ol, ul {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 500px;
+  font-size: 1rem;
+}
+
+ol {
+  color: #3f51b5;
+}
+
+ul {
+  color: #009688;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #4caf50;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 20px;
+  }
+
+  .greeting {
+    font-size: 2rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
